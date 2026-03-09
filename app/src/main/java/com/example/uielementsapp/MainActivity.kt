@@ -21,10 +21,10 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.nav_textfields -> loadFragment(TextFieldsFragment())
                 // Los demás los agregaremos en los siguientes pasos
-                // R.id.nav_botones -> loadFragment(BotonesFragment())
+                R.id.nav_botones -> loadFragment(BotonesFragment())
                 R.id.nav_seleccion -> loadFragment(SeleccionFragment())
                 R.id.nav_listas -> loadFragment(ListaFragment())
-                // R.id.nav_info -> loadFragment(InfoFragment())
+                R.id.nav_info -> loadFragment(InfoFragment())
             }
             true
         }

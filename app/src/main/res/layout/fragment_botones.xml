@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTituloBotones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Componentes de Acción: Botones"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los botones permiten a los usuarios realizar acciones y tomar decisiones con un solo toque. Son el puente principal entre el usuario y la lógica de la app."
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Button Estándar"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar Formulario"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. ImageButton (Icono)"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageButton
+            android:id="@+id/btnIcono"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="Botón de cámara"
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Floating Action Button"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEjemplo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:contentDescription="Agregar"
+            app:fabSize="normal" />
+
+    </LinearLayout>
+</ScrollView>
