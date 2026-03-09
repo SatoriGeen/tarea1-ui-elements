@@ -1,6 +1,6 @@
 # Explorador de UI Elements en Android
 
-**Alumnos:** Pérez Olivares José Julio
+**Alumnos:** Pérez Olivares José Julio, Nava Villar Eric
 
 ## Descripción de la App
 Esta aplicación de android tiene como objetivo demostrar el uso de una arquitectura moderna basada en una `Activity` principal y múltiples `Fragments`, de esta manera sirviendo como un catalogo interactivo.
